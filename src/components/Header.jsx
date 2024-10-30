@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className='container mx-auto my-4'>
             <div className='flex justify-between h items-center'>
-                <h2 className='text-5xl font-bold'>blogger</h2>
+                <h2 className='text-5xl font-bold'>BlogAura</h2>
                 <button className='px-3 py-2 border font-medium text-xl border-solid border-black shadow-[-7px_7px_0_#000]'>Get started</button>
             </div>
             <div className='my-8 text-center'>

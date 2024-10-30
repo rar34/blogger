@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Blogger",
+  title: "BlogAura",
   description: "a blogging website",
 };
 
