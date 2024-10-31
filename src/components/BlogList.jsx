@@ -17,7 +17,7 @@ const BlogList = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {
                     blog_data.filter((item) => menu === "All" ? true : item.category === menu).map(item => {
-                        return <BlogItem key={item.id} image={item.image} title={item.title} description={item.description} category={item.category} />
+                        return <BlogItem key={item.id} id={item.id} image={item.image} title={item.title} description={item.description} category={item.category} />
                     })
                 }
             </div>
