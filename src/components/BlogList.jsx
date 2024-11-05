@@ -8,11 +8,11 @@ const BlogList = () => {
 
     return (
         <div className='container mx-auto my-24'>
-            <div className='flex justify-center my-10 gap-6'>
-                <button onClick={() => setMenu('All')} className={menu === "All" ? 'bg-black px-4 py-1 rounded-sm text-white' : ""}>All</button>
-                <button onClick={() => setMenu('Technology')} className={menu === "Technology" ? 'bg-black px-4 py-1 rounded-sm text-white' : ""}>Technology</button>
-                <button onClick={() => setMenu('Startup')} className={menu === "Startup" ? 'bg-black px-4 py-1 rounded-sm text-white' : ""}>Startup</button>
-                <button onClick={() => setMenu('Lifestyle')} className={menu === "Lifestyle" ? 'bg-black px-4 py-1 rounded-sm text-white' : ""}>Lifestyle</button>
+            <div className='flex justify-center text-xl border-b-2 border-black my-10 gap-6'>
+                <button onClick={() => setMenu('All')} className={menu === "All" ? 'bg-black px-4 py-1 rounded-t-md text-white' : ""}>All</button>
+                <button onClick={() => setMenu('Technology')} className={menu === "Technology" ? 'bg-black px-4 py-1 rounded-t-md text-white' : ""}>Technology</button>
+                <button onClick={() => setMenu('Startup')} className={menu === "Startup" ? 'bg-black px-4 py-1 rounded-t-md text-white' : ""}>Startup</button>
+                <button onClick={() => setMenu('Lifestyle')} className={menu === "Lifestyle" ? 'bg-black px-4 py-1 rounded-t-md text-white' : ""}>Lifestyle</button>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {
