@@ -23,6 +23,10 @@ export async function POST(request) {
     const path = `./public/${timeStamp}_${image.name}`;
     await writeFile(path, buffer);
     const imgUrl = `/${timeStamp}_${image.name}`;
-    console.log(imgUrl);
+
+    const blogData = {
+        // title: `${}`
+    }
+
     return NextResponse.json({ imgUrl })
 }
