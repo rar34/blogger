@@ -13,7 +13,7 @@ const Navbar = () => {
         },
         {
             title: "All Blogs",
-            path: "/all-blogs"
+            path: "/allblogs"
         },
     ]
 
